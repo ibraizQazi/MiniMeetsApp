@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C23A984E2B42A89B00997721 /* MiniMeetsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A984D2B42A89B00997721 /* MiniMeetsAppApp.swift */; };
+		C23A984E2B42A89B00997721 /* MiniMeetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A984D2B42A89B00997721 /* MiniMeetsApp.swift */; };
 		C23A98502B42A89B00997721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A984F2B42A89B00997721 /* ContentView.swift */; };
 		C23A98522B42A89C00997721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23A98512B42A89C00997721 /* Assets.xcassets */; };
 		C23A98552B42A89C00997721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23A98542B42A89C00997721 /* Preview Assets.xcassets */; };
 		C23A985F2B42A89C00997721 /* MiniMeetsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A985E2B42A89C00997721 /* MiniMeetsAppTests.swift */; };
 		C23A98692B42A89C00997721 /* MiniMeetsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A98682B42A89C00997721 /* MiniMeetsAppUITests.swift */; };
 		C23A986B2B42A89C00997721 /* MiniMeetsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A986A2B42A89C00997721 /* MiniMeetsAppUITestsLaunchTests.swift */; };
+		C23A98792B42DE2F00997721 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C23A98782B42DE2F00997721 /* ComposableArchitecture */; };
+		C23A987B2B42DF2A00997721 /* StandupsLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A987A2B42DF2A00997721 /* StandupsLists.swift */; };
+		C23A987D2B42E13700997721 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A987C2B42E13700997721 /* Models.swift */; };
+		C23A987F2B48514100997721 /* StandupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A987E2B48514100997721 /* StandupForm.swift */; };
+		C23A98812B49449400997721 /* StandupFormTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A98802B49449400997721 /* StandupFormTest.swift */; };
+		C23A98832B496E6500997721 /* StandupListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A98822B496E6500997721 /* StandupListsTest.swift */; };
+		C23A98852B4976A000997721 /* StandupDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A98842B4976A000997721 /* StandupDetail.swift */; };
+		C23A98872B49DFE500997721 /* StandupDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A98862B49DFE500997721 /* StandupDetailTests.swift */; };
+		C23A98892B49E29A00997721 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A98882B49E29A00997721 /* App.swift */; };
+		C23A988B2B49F31300997721 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A988A2B49F31300997721 /* AppTests.swift */; };
+		C26CA2FB2B5DB7A1009F7F90 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CA2FA2B5DB7A1009F7F90 /* Meeting.swift */; };
+		C26CA2FD2B5DC4FA009F7F90 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CA2FC2B5DC4FA009F7F90 /* DataManager.swift */; };
+		C2EB3A072B5693A200CF9A28 /* RecordMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EB3A062B5693A200CF9A28 /* RecordMeeting.swift */; };
+		C2FD2E212B56AF220085E41D /* SpeechClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD2E202B56AF220085E41D /* SpeechClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		C23A984A2B42A89B00997721 /* MiniMeetsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMeetsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C23A984D2B42A89B00997721 /* MiniMeetsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMeetsAppApp.swift; sourceTree = "<group>"; };
+		C23A984D2B42A89B00997721 /* MiniMeetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMeetsApp.swift; sourceTree = "<group>"; };
 		C23A984F2B42A89B00997721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C23A98512B42A89C00997721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23A98542B42A89C00997721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +58,19 @@
 		C23A98642B42A89C00997721 /* MiniMeetsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMeetsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23A98682B42A89C00997721 /* MiniMeetsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMeetsAppUITests.swift; sourceTree = "<group>"; };
 		C23A986A2B42A89C00997721 /* MiniMeetsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMeetsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C23A987A2B42DF2A00997721 /* StandupsLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupsLists.swift; sourceTree = "<group>"; };
+		C23A987C2B42E13700997721 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C23A987E2B48514100997721 /* StandupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupForm.swift; sourceTree = "<group>"; };
+		C23A98802B49449400997721 /* StandupFormTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupFormTest.swift; sourceTree = "<group>"; };
+		C23A98822B496E6500997721 /* StandupListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupListsTest.swift; sourceTree = "<group>"; };
+		C23A98842B4976A000997721 /* StandupDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupDetail.swift; sourceTree = "<group>"; };
+		C23A98862B49DFE500997721 /* StandupDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupDetailTests.swift; sourceTree = "<group>"; };
+		C23A98882B49E29A00997721 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		C23A988A2B49F31300997721 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		C26CA2FA2B5DB7A1009F7F90 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		C26CA2FC2B5DC4FA009F7F90 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C2EB3A062B5693A200CF9A28 /* RecordMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMeeting.swift; sourceTree = "<group>"; };
+		C2FD2E202B56AF220085E41D /* SpeechClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23A98792B42DE2F00997721 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +122,17 @@
 		C23A984C2B42A89B00997721 /* MiniMeetsApp */ = {
 			isa = PBXGroup;
 			children = (
-				C23A984D2B42A89B00997721 /* MiniMeetsAppApp.swift */,
+				C23A984D2B42A89B00997721 /* MiniMeetsApp.swift */,
 				C23A984F2B42A89B00997721 /* ContentView.swift */,
+				C23A98882B49E29A00997721 /* App.swift */,
+				C23A987A2B42DF2A00997721 /* StandupsLists.swift */,
+				C26CA2FC2B5DC4FA009F7F90 /* DataManager.swift */,
+				C2FD2E202B56AF220085E41D /* SpeechClient.swift */,
+				C23A98842B4976A000997721 /* StandupDetail.swift */,
+				C23A987E2B48514100997721 /* StandupForm.swift */,
+				C2EB3A062B5693A200CF9A28 /* RecordMeeting.swift */,
+				C23A987C2B42E13700997721 /* Models.swift */,
+				C26CA2FA2B5DB7A1009F7F90 /* Meeting.swift */,
 				C23A98512B42A89C00997721 /* Assets.xcassets */,
 				C23A98532B42A89C00997721 /* Preview Content */,
 			);
@@ -114,6 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				C23A985E2B42A89C00997721 /* MiniMeetsAppTests.swift */,
+				C23A988A2B49F31300997721 /* AppTests.swift */,
+				C23A98862B49DFE500997721 /* StandupDetailTests.swift */,
+				C23A98802B49449400997721 /* StandupFormTest.swift */,
+				C23A98822B496E6500997721 /* StandupListsTest.swift */,
 			);
 			path = MiniMeetsAppTests;
 			sourceTree = "<group>";
@@ -143,6 +184,9 @@
 			dependencies = (
 			);
 			name = MiniMeetsApp;
+			packageProductDependencies = (
+				C23A98782B42DE2F00997721 /* ComposableArchitecture */,
+			);
 			productName = MiniMeetsApp;
 			productReference = C23A984A2B42A89B00997721 /* MiniMeetsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +259,9 @@
 				Base,
 			);
 			mainGroup = C23A98412B42A89B00997721;
+			packageReferences = (
+				C23A98772B42DE2F00997721 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = C23A984B2B42A89B00997721 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +305,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C23A98502B42A89B00997721 /* ContentView.swift in Sources */,
-				C23A984E2B42A89B00997721 /* MiniMeetsAppApp.swift in Sources */,
+				C23A987F2B48514100997721 /* StandupForm.swift in Sources */,
+				C23A98852B4976A000997721 /* StandupDetail.swift in Sources */,
+				C23A987B2B42DF2A00997721 /* StandupsLists.swift in Sources */,
+				C23A984E2B42A89B00997721 /* MiniMeetsApp.swift in Sources */,
+				C26CA2FB2B5DB7A1009F7F90 /* Meeting.swift in Sources */,
+				C2FD2E212B56AF220085E41D /* SpeechClient.swift in Sources */,
+				C23A98892B49E29A00997721 /* App.swift in Sources */,
+				C26CA2FD2B5DC4FA009F7F90 /* DataManager.swift in Sources */,
+				C2EB3A072B5693A200CF9A28 /* RecordMeeting.swift in Sources */,
+				C23A987D2B42E13700997721 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23A98872B49DFE500997721 /* StandupDetailTests.swift in Sources */,
+				C23A98832B496E6500997721 /* StandupListsTest.swift in Sources */,
 				C23A985F2B42A89C00997721 /* MiniMeetsAppTests.swift in Sources */,
+				C23A988B2B49F31300997721 /* AppTests.swift in Sources */,
+				C23A98812B49449400997721 /* StandupFormTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniMeetsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CL32423R27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniMeetsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CL32423R27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -582,6 +644,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C23A98772B42DE2F00997721 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C23A98782B42DE2F00997721 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C23A98772B42DE2F00997721 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C23A98422B42A89B00997721 /* Project object */;
 }
